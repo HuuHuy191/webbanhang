@@ -19,7 +19,7 @@
                                 </div>
                                 <div class="form-group">
                                   <label for="exampleInputPassword1">Hiển thị</label>
-                                     <select class="form-control input-sm m-bot15">
+                                     <select name="category_product_status" class="form-control input-sm m-bot15">
                                 <option>ẩn</option>
                                 <option>Hiển thị</option>
                               
