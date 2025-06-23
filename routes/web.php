@@ -11,6 +11,7 @@ use App\Http\Controllers\CartController;
 use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\OrderController;
+use App\Http\Controllers\CategoryProductController;
 Route::get('/', [HomeController::class, 'index']);
 Route::get('/trang-chu', [HomeController::class, 'index']);
 #Danh muc san pham trang chu 
@@ -117,3 +118,6 @@ Route::middleware(['auth'])->group(function () {
 });
 
 // require _DIR_.'/auth.php';
+//Category Product
+Route::get('/add-category-product', [CategoryProductController::class, 'add_category_product'])->name('add_category_product');
+Route::get('/all-category-product', [CategoryProductController::class, 'all_category_product'])->name('all_category_product');

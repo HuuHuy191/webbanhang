@@ -44,13 +44,9 @@
         </div>
         <div class="humberger__menu__widget">
             <div class="header__top__right__language">
-                <img src="{{ asset('frontend/img/language.png') }}" alt="">
-                <div>English</div>
-                <span class="arrow_carrot-down"></span>
-                <ul>
-                    <li><a href="#">Spanis</a></li>
-                    <li><a href="#">English</a></li>
-                </ul>
+                
+                <div>Logout</div>
+               
             </div>
 
            <!-- filepath: resources/views/layout.blade.php -->
@@ -111,18 +107,14 @@
                                 <a href="#"><i class="fa fa-pinterest-p"></i></a>
                             </div>
                             <div class="header__top__right__language">
-                                <img src="{{ asset('frontend/img/language.png') }}" alt="">
-                                <div>English</div>
-                                <span class="arrow_carrot-down"></span>
-                                <ul>
-                                    <li><a href="#">Spanis</a></li>
-                                    <li><a href="#">English</a></li>
-                                </ul>
+                                 <div class="header__top__right__auth">
+                                <a href="#"><i class="fa fa-user"></i> Đăng kí</a>
+                            </div>
                             </div>
                            <div class="header__top__right__auth">
     <form action="{{ route('admin_login') }}" method="get" style="display:inline;">
         <button type="submit" class="btn btn-primary" style="background:none;border:none;padding:0;color:inherit;">
-            <i class="fa fa-user"></i> Login
+            <i class="fa fa-user"></i> Đăng nhập
         </button>
     </form>
 </div>

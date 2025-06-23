@@ -92,8 +92,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <span>Danh mục sản phẩm</span>
                     </a>
                     <ul class="sub">
-						<li><a href="typography.html">Thêm danh mục</a></li>
-						<li><a href="glyphicon.html">Liệt kê danh mục</a></li>
+						<li><a href="{{route('add_category_product')}}">Thêm danh mục sản phẩm</a></li>
+						<li><a href="{{route('all_category_product')}}">Liệt kê danh mục sản phẩm</a></li>
                        `
                     </ul>
                 </li>
