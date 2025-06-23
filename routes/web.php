@@ -121,3 +121,7 @@ Route::middleware(['auth'])->group(function () {
 //Category Product
 Route::get('/add-category-product', [CategoryProductController::class, 'add_category_product'])->name('add_category_product');
 Route::get('/all-category-product', [CategoryProductController::class, 'all_category_product'])->name('all_category_product');
+
+Route::get('/user-register', function () {
+    return view('auth/register');
+})->name('register');

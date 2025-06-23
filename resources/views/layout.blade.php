@@ -108,7 +108,7 @@
                             </div>
                             <div class="header__top__right__language">
                                  <div class="header__top__right__auth">
-                                <a href="#"><i class="fa fa-user"></i> Đăng kí</a>
+                                <a href="{{ route('register') }}"><i class="fa fa-user"></i> Đăng kí</a> 
                             </div>
                             </div>
                            <div class="header__top__right__auth">

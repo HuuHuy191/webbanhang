@@ -44,5 +44,6 @@ public function register(Request $request)
 
     return redirect('/user-login')->with('success', 'Đăng ký thành công!');
 }
+
 }
 
